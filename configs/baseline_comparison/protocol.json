@@ -1,0 +1,37 @@
+{
+  "methods": [
+    "bc",
+    "drq",
+    "strong",
+    "consistency",
+    "mask",
+    "infogating"
+  ],
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "transitions": 100000,
+  "episodes": 200,
+  "batch_size": 16,
+  "update_seconds_per_run": 1200,
+  "evaluation_seeds": [
+    701,
+    702,
+    703
+  ],
+  "dynamic_distractions": false,
+  "size_pilot": {
+    "methods": [
+      "bc",
+      "drq"
+    ],
+    "transitions": [
+      10000,
+      100000
+    ],
+    "seconds_per_run": 300
+  },
+  "note": "Protocol record; executable settings remain in scripts/baseline and configs/upstream."
+}

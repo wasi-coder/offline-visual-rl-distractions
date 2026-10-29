@@ -1,0 +1,13 @@
+# Figure captions for the final paper
+
+**Main return comparison.** Final-checkpoint raw episode returns on familiar and held-out background sources after 1,200 measured update seconds per training seed, using 100,000 transitions. Each black point averages three evaluation episodes for one independently trained seed. Bars show means and whiskers show sample standard deviations across three training-seed means, not confidence intervals. InfoGating* denotes the explicitly adapted author-code implementation (batch 16, custom dataset/runner and time budget), not reproduced published performance.
+
+**Dataset-size pilot.** BC and DrQv2+BC trained for 300 measured update seconds per seed with either 10,000 or 100,000 transitions; the smaller dataset is nested in the larger. Points and whiskers are means and sample standard deviations across three training-seed averages, each computed over three evaluation episodes. The training budget differs from the main comparison. Two dataset sizes and short runs do not establish an asymptotic scaling law.
+
+**Occlusion diagnostic.** Mean paired return change across three training seeds when a central band of 8, 16 or 32 pixels is replaced by gray, relative to each checkpoint's unoccluded run with the same evaluation seed 701. Only one evaluation seed per checkpoint is used. The perturbation changes subsequent closed-loop trajectories; it is not a verified foreground/background intervention. The mask-trained method additionally retains its top-16-row mask at inference. Apparent improvements under damage are possible and should be reported without assuming removal always lowers return.
+
+**Compute reporting.** Report update-count ranges alongside fixed training-time budgets. Process peak RSS and peak PyTorch-allocated CUDA memory, where logged, are different quantities; neither equals total system or GPU memory. InfoGating memory was not logged by the original comparator runner and must be marked unmeasured, not zero. Validation overlapped the core briefly and may have caused minor GPU contention.
+
+Important evaluation scope: dynamic=False is inherited from the suite default. The background frame, colour and camera distractions are static within an episode. fixed_distraction=False controls resetting, not temporal dynamics. Familiar/held-out means familiar versus unseen video-source images under this static-distraction protocol. Do not claim robustness to moving backgrounds or temporal distraction changes. This was verified in source and saved video samples; the evaluation protocol was not changed after seeing results.
+
+Occlusion plot whiskers show sample standard deviation of paired changes across three training seeds; the evaluation seed remains fixed at701.

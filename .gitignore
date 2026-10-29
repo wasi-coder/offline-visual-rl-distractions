@@ -1,0 +1,42 @@
+# Original local experiment workspace (preserved on disk)
+/code/
+/data/
+/logs/
+/output/
+/references/
+/report_dependencies/
+/reports/
+/runs/
+/runs_10k/
+/runs_100k_matched/
+/tmp/
+/videos/
+# Only the portable script tree belongs in Git
+/scripts/*.py
+/scripts/__pycache__/
+# Environments, caches, model artifacts and secrets
+.venv/
+venv/
+environment/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+wandb/
+.env
+.env.*
+!.env.example
+*.pt
+*.pth
+*.ckpt
+*.hdf5
+*.h5
+*.npz
+*.zip
+*.tar
+*.tar.gz
+*.mp4
+*.avi
+.DS_Store
+Thumbs.db

@@ -1,0 +1,19 @@
+{
+  "study_complete": true,
+  "training_runs": 30,
+  "evaluation_episodes": 234,
+  "update_hours": 7.000118889388345,
+  "all_final_pages_visually_reviewed": true,
+  "figure_scaling_repaired": true,
+  "files": {
+    "IEEE_actual_evidence_paper.pdf": {
+      "pages": 5,
+      "sha256": "ea460077957309391e1ae90479a25aba924ed95fdedff7b1d3cbe49593fb23c4"
+    },
+    "Supervisor_actual_results_summary.pdf": {
+      "pages": 3,
+      "sha256": "99caf5689cab386dac77c39964ad9b941aa254dd3cd5944cca84688a27ecd7e0"
+    }
+  },
+  "submission_status": "Empirical research draft; not established as submission-ready or a novel method."
+}

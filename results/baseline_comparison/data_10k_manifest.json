@@ -1,0 +1,70 @@
+[
+  {
+    "source": "<STUDY_ROOT>\\data\\cheetah_medium_expert_easy\\shard_1_reward_513.hdf5",
+    "selected_episode_indices": [
+      6,
+      17,
+      21
+    ],
+    "transitions": 1500
+  },
+  {
+    "source": "<STUDY_ROOT>\\data\\cheetah_medium_expert_easy\\shard_1_reward_890.hdf5",
+    "selected_episode_indices": [
+      3,
+      8,
+      22
+    ],
+    "transitions": 1500
+  },
+  {
+    "source": "<STUDY_ROOT>\\data\\cheetah_medium_expert_easy\\shard_2_reward_513.hdf5",
+    "selected_episode_indices": [
+      9,
+      13
+    ],
+    "transitions": 1000
+  },
+  {
+    "source": "<STUDY_ROOT>\\data\\cheetah_medium_expert_easy\\shard_2_reward_886.hdf5",
+    "selected_episode_indices": [
+      5,
+      6
+    ],
+    "transitions": 1000
+  },
+  {
+    "source": "<STUDY_ROOT>\\data\\cheetah_medium_expert_easy\\shard_3_reward_511.hdf5",
+    "selected_episode_indices": [
+      2,
+      10,
+      21
+    ],
+    "transitions": 1500
+  },
+  {
+    "source": "<STUDY_ROOT>\\data\\cheetah_medium_expert_easy\\shard_3_reward_897.hdf5",
+    "selected_episode_indices": [
+      17,
+      21,
+      23
+    ],
+    "transitions": 1500
+  },
+  {
+    "source": "<STUDY_ROOT>\\data\\cheetah_medium_expert_easy\\shard_4_reward_512.hdf5",
+    "selected_episode_indices": [
+      17,
+      22
+    ],
+    "transitions": 1000
+  },
+  {
+    "source": "<STUDY_ROOT>\\data\\cheetah_medium_expert_easy\\shard_4_reward_893.hdf5",
+    "selected_episode_indices": [
+      7,
+      23
+    ],
+    "transitions": 1000
+  }
+]

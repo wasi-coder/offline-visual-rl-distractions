@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "minibatches": 100,
+  "arrays_compared": 700,
+  "batch_size": 16,
+  "episodes": 2,
+  "transitions_per_episode": 500,
+  "scope": "Synthetic replay with independent author horizon calculation; exact outputs under shared random seed. Does not establish whole algorithm or paper reproduction."
+}

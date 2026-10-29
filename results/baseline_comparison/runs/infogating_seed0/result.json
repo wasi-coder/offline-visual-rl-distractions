@@ -1,0 +1,8 @@
+{
+  "mode": "published_infogating_adapted_batch16",
+  "seed": 0,
+  "updates": 16573,
+  "training_seconds": 1200.0060399007489,
+  "evaluation_pending": true,
+  "changes": "batch16 instead of256; plotting disabled; original architecture/lr/feature256/lambda.1 and update retained; custom equivalent bounded future-frame sampler"
+}

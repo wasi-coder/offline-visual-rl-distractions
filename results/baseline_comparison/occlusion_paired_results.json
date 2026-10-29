@@ -1,0 +1,200 @@
+[
+  {
+    "method": "bc",
+    "band_pixels": 8,
+    "per_training_seed_change": [
+      4.950741367723218,
+      214.80499491506947,
+      2.188011543595498
+    ],
+    "mean_change": 73.98124927546273,
+    "sd_change": 121.96476405502031
+  },
+  {
+    "method": "bc",
+    "band_pixels": 16,
+    "per_training_seed_change": [
+      -3.4170216828853204,
+      150.93363356839782,
+      12.042656312972396
+    ],
+    "mean_change": 53.1864227328283,
+    "sd_change": 85.0037548025607
+  },
+  {
+    "method": "bc",
+    "band_pixels": 32,
+    "per_training_seed_change": [
+      -4.523877859026422,
+      -1.8816162660344768,
+      -1.0976849322417301
+    ],
+    "mean_change": -2.501059685767543,
+    "sd_change": 1.795127322942668
+  },
+  {
+    "method": "drq",
+    "band_pixels": 8,
+    "per_training_seed_change": [
+      0.1797367503696059,
+      -0.9075198630956669,
+      -1.4372068067913255
+    ],
+    "mean_change": -0.7216633065057955,
+    "sd_change": 0.8243382870409725
+  },
+  {
+    "method": "drq",
+    "band_pixels": 16,
+    "per_training_seed_change": [
+      0.8665222903615042,
+      -2.06288275520611,
+      -0.7582065537547922
+    ],
+    "mean_change": -0.6515223395331328,
+    "sd_change": 1.4676135804162889
+  },
+  {
+    "method": "drq",
+    "band_pixels": 32,
+    "per_training_seed_change": [
+      0.2928347419054831,
+      -1.845221469017495,
+      -2.1064607751109183
+    ],
+    "mean_change": -1.2196158340743102,
+    "sd_change": 1.3163174208177333
+  },
+  {
+    "method": "strong",
+    "band_pixels": 8,
+    "per_training_seed_change": [
+      -74.22868290515835,
+      -1.015896235883098,
+      4.339116250131594
+    ],
+    "mean_change": -23.63515429696995,
+    "sd_change": 43.89701461890121
+  },
+  {
+    "method": "strong",
+    "band_pixels": 16,
+    "per_training_seed_change": [
+      -77.52799831909338,
+      2.933636573831928,
+      0.9424761874725145
+    ],
+    "mean_change": -24.55062851926298,
+    "sd_change": 45.89054873393909
+  },
+  {
+    "method": "strong",
+    "band_pixels": 32,
+    "per_training_seed_change": [
+      -78.25620935366479,
+      -0.9842242370424654,
+      -1.7099080397847644
+    ],
+    "mean_change": -26.983447210164005,
+    "sd_change": 44.40499698922854
+  },
+  {
+    "method": "consistency",
+    "band_pixels": 8,
+    "per_training_seed_change": [
+      -2.28882641992992,
+      -2.5493731845795624,
+      -4.999151280475239
+    ],
+    "mean_change": -3.2791169616615736,
+    "sd_change": 1.4952791370058438
+  },
+  {
+    "method": "consistency",
+    "band_pixels": 16,
+    "per_training_seed_change": [
+      0.277707079037691,
+      -2.355808074348205,
+      -2.545693671685701
+    ],
+    "mean_change": -1.5412648889987384,
+    "sd_change": 1.5781344684138279
+  },
+  {
+    "method": "consistency",
+    "band_pixels": 32,
+    "per_training_seed_change": [
+      -3.1291615676905304,
+      -3.1063549244463946,
+      0.2166820032336787
+    ],
+    "mean_change": -2.0062781629677486,
+    "sd_change": 1.9251737482972089
+  },
+  {
+    "method": "mask",
+    "band_pixels": 8,
+    "per_training_seed_change": [
+      240.0682531146261,
+      -1.3613671656765414,
+      -5.004544541465793
+    ],
+    "mean_change": 77.90078046916125,
+    "sd_change": 140.45296391856974
+  },
+  {
+    "method": "mask",
+    "band_pixels": 16,
+    "per_training_seed_change": [
+      265.4252748942478,
+      -0.4469632907736667,
+      -4.706511240736523
+    ],
+    "mean_change": 86.75726678757921,
+    "sd_change": 154.74569065983053
+  },
+  {
+    "method": "mask",
+    "band_pixels": 32,
+    "per_training_seed_change": [
+      -3.372726152157509,
+      -0.8066975640786549,
+      -5.972130441526549
+    ],
+    "mean_change": -3.383851385920904,
+    "sd_change": 2.582734409685716
+  },
+  {
+    "method": "infogating",
+    "band_pixels": 8,
+    "per_training_seed_change": [
+      -20.85646623606512,
+      -202.9430848553012,
+      -16.001575783848622
+    ],
+    "mean_change": -79.93370895840498,
+    "sd_change": 106.55689752068466
+  },
+  {
+    "method": "infogating",
+    "band_pixels": 16,
+    "per_training_seed_change": [
+      -34.35034736924682,
+      -202.17759454373308,
+      13.414650342078929
+    ],
+    "mean_change": -74.37109719030032,
+    "sd_change": 113.23095568750402
+  },
+  {
+    "method": "infogating",
+    "band_pixels": 32,
+    "per_training_seed_change": [
+      -46.54559561921082,
+      -204.2426047410041,
+      -29.662090805393095
+    ],
+    "mean_change": -93.48343038853601,
+    "sd_change": 96.29101313793448
+  }
+]

@@ -1,0 +1,277 @@
+{
+  "checked_runs": 30,
+  "all_completed_checkpoints_passed": true,
+  "records": [
+    {
+      "run": "runs/bc_seed0",
+      "checkpoint": "<STUDY_ROOT>\\runs\\bc_seed0\\latest.pt",
+      "updates": 83635,
+      "training_seconds": 1200.0136152002597,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/bc_seed1",
+      "checkpoint": "<STUDY_ROOT>\\runs\\bc_seed1\\latest.pt",
+      "updates": 85653,
+      "training_seconds": 1200.0083551994758,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/bc_seed2",
+      "checkpoint": "<STUDY_ROOT>\\runs\\bc_seed2\\latest.pt",
+      "updates": 85974,
+      "training_seconds": 1200.0107581005068,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/consistency_seed0",
+      "checkpoint": "<STUDY_ROOT>\\runs\\consistency_seed0\\latest.pt",
+      "updates": 26440,
+      "training_seconds": 1200.0083214997503,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/consistency_seed1",
+      "checkpoint": "<STUDY_ROOT>\\runs\\consistency_seed1\\latest.pt",
+      "updates": 26383,
+      "training_seconds": 1200.0161434998008,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/consistency_seed2",
+      "checkpoint": "<STUDY_ROOT>\\runs\\consistency_seed2\\latest.pt",
+      "updates": 26388,
+      "training_seconds": 1200.0420544005683,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/drq_seed0",
+      "checkpoint": "<STUDY_ROOT>\\runs\\drq_seed0\\latest.pt",
+      "updates": 32224,
+      "training_seconds": 1200.0253797999649,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/drq_seed1",
+      "checkpoint": "<STUDY_ROOT>\\runs\\drq_seed1\\latest.pt",
+      "updates": 32476,
+      "training_seconds": 1200.0021385995096,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/drq_seed2",
+      "checkpoint": "<STUDY_ROOT>\\runs\\drq_seed2\\latest.pt",
+      "updates": 32099,
+      "training_seconds": 1200.0076160000754,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/infogating_seed0",
+      "checkpoint": "<STUDY_ROOT>\\runs\\infogating_seed0\\final.pt",
+      "updates": 16573,
+      "training_seconds": 1200.0060399007489,
+      "state_tensor_elements": 6215435,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/infogating_seed1",
+      "checkpoint": "<STUDY_ROOT>\\runs\\infogating_seed1\\final.pt",
+      "updates": 16600,
+      "training_seconds": 1200.0056778001017,
+      "state_tensor_elements": 6215435,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/infogating_seed2",
+      "checkpoint": "<STUDY_ROOT>\\runs\\infogating_seed2\\final.pt",
+      "updates": 16562,
+      "training_seconds": 1200.0073870000342,
+      "state_tensor_elements": 6215435,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/mask_seed0",
+      "checkpoint": "<STUDY_ROOT>\\runs\\mask_seed0\\latest.pt",
+      "updates": 31997,
+      "training_seconds": 1200.0213526999505,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/mask_seed1",
+      "checkpoint": "<STUDY_ROOT>\\runs\\mask_seed1\\latest.pt",
+      "updates": 31881,
+      "training_seconds": 1200.0151704999662,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/mask_seed2",
+      "checkpoint": "<STUDY_ROOT>\\runs\\mask_seed2\\latest.pt",
+      "updates": 31978,
+      "training_seconds": 1200.0284429005478,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/strong_seed0",
+      "checkpoint": "<STUDY_ROOT>\\runs\\strong_seed0\\latest.pt",
+      "updates": 32047,
+      "training_seconds": 1200.0192275999761,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/strong_seed1",
+      "checkpoint": "<STUDY_ROOT>\\runs\\strong_seed1\\latest.pt",
+      "updates": 31692,
+      "training_seconds": 1200.012741100054,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs/strong_seed2",
+      "checkpoint": "<STUDY_ROOT>\\runs\\strong_seed2\\latest.pt",
+      "updates": 31793,
+      "training_seconds": 1200.0084324994023,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_10k/bc_seed0",
+      "checkpoint": "<STUDY_ROOT>\\runs_10k\\bc_seed0\\latest.pt",
+      "updates": 22536,
+      "training_seconds": 300.0088637992594,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_10k/bc_seed1",
+      "checkpoint": "<STUDY_ROOT>\\runs_10k\\bc_seed1\\latest.pt",
+      "updates": 21854,
+      "training_seconds": 300.01776230026735,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_10k/bc_seed2",
+      "checkpoint": "<STUDY_ROOT>\\runs_10k\\bc_seed2\\latest.pt",
+      "updates": 22918,
+      "training_seconds": 300.00240180062974,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_10k/drq_seed0",
+      "checkpoint": "<STUDY_ROOT>\\runs_10k\\drq_seed0\\latest.pt",
+      "updates": 9337,
+      "training_seconds": 300.0292290001962,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_10k/drq_seed1",
+      "checkpoint": "<STUDY_ROOT>\\runs_10k\\drq_seed1\\latest.pt",
+      "updates": 9331,
+      "training_seconds": 300.01102399982483,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_10k/drq_seed2",
+      "checkpoint": "<STUDY_ROOT>\\runs_10k\\drq_seed2\\latest.pt",
+      "updates": 9410,
+      "training_seconds": 300.0033913998195,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_100k_matched/bc_seed0",
+      "checkpoint": "<STUDY_ROOT>\\runs_100k_matched\\bc_seed0\\latest.pt",
+      "updates": 22265,
+      "training_seconds": 300.0079405991273,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_100k_matched/bc_seed1",
+      "checkpoint": "<STUDY_ROOT>\\runs_100k_matched\\bc_seed1\\latest.pt",
+      "updates": 22061,
+      "training_seconds": 300.01062179949076,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_100k_matched/bc_seed2",
+      "checkpoint": "<STUDY_ROOT>\\runs_100k_matched\\bc_seed2\\latest.pt",
+      "updates": 22102,
+      "training_seconds": 300.00554009906773,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_100k_matched/drq_seed0",
+      "checkpoint": "<STUDY_ROOT>\\runs_100k_matched\\drq_seed0\\latest.pt",
+      "updates": 8786,
+      "training_seconds": 300.020784599561,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_100k_matched/drq_seed1",
+      "checkpoint": "<STUDY_ROOT>\\runs_100k_matched\\drq_seed1\\latest.pt",
+      "updates": 8713,
+      "training_seconds": 300.0292803995908,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    },
+    {
+      "run": "runs_100k_matched/drq_seed2",
+      "checkpoint": "<STUDY_ROOT>\\runs_100k_matched\\drq_seed2\\latest.pt",
+      "updates": 8857,
+      "training_seconds": 300.0223077005139,
+      "state_tensor_elements": 11454764,
+      "finite": true,
+      "result_metadata_matches": true
+    }
+  ],
+  "scope": "Final saved model tensors finite; model keys and update/timer metadata match result.json. Does not prove convergence or algorithm correctness."
+}

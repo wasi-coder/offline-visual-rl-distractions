@@ -1,0 +1,17 @@
+# Python 3.11. Install PyTorch separately for your hardware (see README).
+numpy==1.26.4
+h5py==3.11.0
+hydra-core==1.3.2
+dm-env==1.6
+dm-control==1.0.14
+mujoco==2.3.7
+imageio==2.36.1
+imageio-ffmpeg==0.5.1
+psutil==6.1.0
+Pillow>=10
+matplotlib==3.9.4
+opencv-python==4.10.0.84
+termcolor
+joblib
+reportlab
+pypdf

@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Please cite this software and the upstream methods listed in THIRD_PARTY_NOTICES.md."
+title: "Offline Visual RL with Distractions: Baseline Study and Hybrid Research"
+type: software
+authors:
+  - name: "Offline Visual RL project contributors"
+version: 0.1.0
+date-released: 2026-10-30
+license: MIT
+abstract: "A compute-limited distracted-cheetah offline RL comparison with archived real results; InfoGating plus domain-adversarial training remains planned."

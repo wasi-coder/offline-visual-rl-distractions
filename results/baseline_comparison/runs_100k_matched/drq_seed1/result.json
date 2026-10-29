@@ -1,0 +1,24 @@
+{
+  "mode": "drq",
+  "seed": 1,
+  "updates": 8713,
+  "training_seconds": 300.0292803995908,
+  "peak_rss": 3491880960,
+  "peak_cuda_allocated": 222793728,
+  "evaluation": [
+    {
+      "condition": "fixed_easy",
+      "seed": 501,
+      "return": 5.180765611287644,
+      "steps": 500,
+      "background_note": "same four available background videos; unseen seed only, not held-out background source"
+    },
+    {
+      "condition": "easy",
+      "seed": 501,
+      "return": 5.180765611287644,
+      "steps": 500,
+      "background_note": "same four available background videos; unseen seed only, not held-out background source"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "task": "cheetah_run",
+  "difficulty": "easy",
+  "dynamic": false,
+  "fixed_distraction": false,
+  "explanation": "The evaluator omits dynamic, so suite.load defaults to false. Background frame, colour perturbation and camera distraction are static within an episode, while explicit seeds choose their values. fixed_distraction=false does not enable temporal dynamics.",
+  "evaluation_seeds": [701, 702, 703],
+  "camera_seed_offset": 2000,
+  "background_seed_offset": 1000,
+  "color_seed_offset": 3000,
+  "heldout_sources": ["blackswan", "bmx-trees", "breakdance", "camel"],
+  "limitation": "No conclusions about temporally changing video backgrounds, colours or camera distractions follow from these evaluation episodes.",
+  "verification": "Read code/envs/distracting_control/suite.py dynamic=False and suite_utils.py dynamic-dependent perturbation parameters; sampled saved video frames confirm a static background.",
+  "protocol_changed_after_results": false
+}
