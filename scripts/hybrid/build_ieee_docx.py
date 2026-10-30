@@ -18,6 +18,7 @@ def clean(s):
  return s.replace('Guzel','Güzel').replace(' (author surname: Güzel with umlaut on u).','.').replace('**','').replace('`','')
 def p(text='',style='BodyText',number=True):
  x=el('p');pr=el('pPr');pr.append(el('pStyle',val=style));x.append(pr)
+ if style=='tablehead':pr.append(el('keepNext'))
  if not number:n=el('numPr');n.append(el('numId',val=0));pr.append(n)
  run=el('r')
  if style=='equation':
@@ -52,7 +53,17 @@ def fig(name,caption):
  pr.append(el('keepNext'))
  parts['word/media/hybridfigure'+name]=(T/'figures'/name).read_bytes();body.append(node);p(caption,'figurecaption',False)
 p('Information Gating Under Domain Adversarial Alignment in Distracted Offline Visual Control','papertitle')
-p('Wasi alsafa and Sadad Kadery','Author');p('wasialsafa025@gmail.com','Author')
+authors=el('tbl');ap=el('tblPr');ap.append(el('tblW',w=10090,type='dxa'));authors.append(ap)
+grid=el('tblGrid');grid.append(el('gridCol',w=5045));grid.append(el('gridCol',w=5045));authors.append(grid);row=el('tr')
+for name,email in [('Wasi alsafa','wasialsafa025@gmail.com'),('Sadad Kadery','sadadkadery@gmail.com')]:
+ cell=el('tc');cp=el('tcPr');cp.append(el('tcW',w=5045,type='dxa'));cell.append(cp)
+ for i,text in enumerate([name,'Department of Computer Science and Engineering','Rajshahi University of Engineering & Technology','Rajshahi, Bangladesh',email]):
+  par=el('p');pp=el('pPr');pp.append(el('jc',val='center'));pp.append(el('spacing',after=0,before=0));par.append(pp)
+  run=el('r');rp=el('rPr');rp.append(el('rFonts',ascii='Times New Roman',hAnsi='Times New Roman'));rp.append(el('sz',val=20))
+  if i in [1,2]:rp.append(el('i'))
+  run.append(rp);tx=el('t');tx.text=text;run.append(tx);par.append(run);cell.append(par)
+ row.append(cell)
+authors.append(row);body.append(authors)
 front.find('w:cols',ns).set('{'+w+'}num','1')
 if front.find('w:type',ns) is None:front.insert(0,el('type',val='continuous'))
 p('').find('w:pPr',ns).append(front)

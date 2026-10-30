@@ -5,7 +5,10 @@ type: software
 authors:
   - name: "Wasi alsafa"
     email: "wasialsafa025@gmail.com"
+    affiliation: "Rajshahi University of Engineering & Technology"
   - name: "Sadad Kadery"
+    email: "sadadkadery@gmail.com"
+    affiliation: "Rajshahi University of Engineering & Technology"
 version: 0.1.0
 date-released: 2026-10-30
 license: MIT
