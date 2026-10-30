@@ -69,7 +69,7 @@ while i<len(lines):
   tables+=1
   for row in rows:
    for j,cell in enumerate(row):row[j]=cell.replace('Alignment + gating + inverse + BC','DA+IG').replace('Alignment + inverse + BC','DA+Inv').replace('Gating + inverse + BC','IG').replace('Inverse + BC','Inv')
-  table(['TABLE I  FINAL CONTROL RETURNS','TABLE II  FROZEN FEATURE PROBES'][min(tables-1,1)],rows[0],rows[1:])
+  table(['TABLE I  FINAL CONTROL RETURNS','TABLE II  FROZEN FEATURE PROBES','TABLE III  MEASURED UPDATE COST','TABLE IV  EXPLORATORY STATIC AND MOVING TEST'][tables-1],rows[0],rows[1:])
   if tables==1:fig('returns.png','Fig. 1. Final return means and sample SD across three training seeds. Dots show seed means over five episodes. Inv denotes inverse prediction with BC; IG adds gating; DA adds alignment.')
   if tables==2:fig('probes.png','Fig. 2. Action probe error on separate episodes. Dots show individual trained encoders; horizontal marks indicate means. Lower is better for this fixed probe.')
   continue
@@ -79,6 +79,8 @@ while i<len(lines):
   elif heading in ['References','Acknowledgment']:p(heading,'Heading5')
   else:p(heading,'Heading2' if line.startswith('###') else 'Heading1')
   i+=1;continue
+ if line=='FIGURE_PAIRED':
+  fig('paired.png','Fig. 3. Paired held-out return changes after adding gating. Each dot is one matched training seed; black bars show means. Negative values favor the condition without gating.');i+=1;continue
  paragraph=line;i+=1
  while i<len(lines) and lines[i].strip() and not lines[i].startswith(('#','|')):paragraph+=' '+lines[i].strip();i+=1
  if paragraph.startswith('Abstract—'):p(paragraph,'Abstract');p('Keywords—offline visual control, behavioral cloning, information gating, domain adaptation, representation learning','Keywords')
