@@ -47,6 +47,9 @@ def fig(name,caption):
   for k in list(x.attrib):
    if E.QName(k).localname=='embed':x.set(k,rid)
  n=E.SubElement(rels,'{'+rel_ns+'}Relationship');n.set('Id',rid);n.set('Type','http://purl.oclc.org/ooxml/officeDocument/relationships/image');n.set('Target','media/hybridfigure'+name)
+ pr=node.find('w:pPr',ns)
+ if pr is None:pr=el('pPr');node.insert(0,pr)
+ pr.append(el('keepNext'))
  parts['word/media/hybridfigure'+name]=(T/'figures'/name).read_bytes();body.append(node);p(caption,'figurecaption',False)
 p('Information Gating Under Domain Adversarial Alignment in Distracted Offline Visual Control','papertitle')
 p('Wasi alsafa and Sadad Kadery','Author');p('wasialsafa025@gmail.com','Author')
