@@ -1,0 +1,3 @@
+# Correction to the first study's InfoGating notes
+
+Inspection of the author InfoNCE implementation shows `train_samples = 256` and explicitly generated random negative actions. The earlier statement that reducing the minibatch from256to16 directly reduces the number of contrastive negative actions was inaccurate for this implementation. The negative-action count remains256. The minibatch-size change still affects gradient statistics and is a protocol difference, but should not be explained as fewer negatives. This correction supersedes that particular explanation in the historical audit notes; reported numerical results are unchanged.

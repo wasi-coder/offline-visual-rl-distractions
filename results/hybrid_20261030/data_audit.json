@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "files_checked": 48,
+  "transitions": {
+    "train": 160000,
+    "validation": 24000,
+    "probe_test": 16000
+  },
+  "disjoint_within_source_episode_splits": true,
+  "limitation": "No simulator-state trajectory identifier permits independent proof that easy and medium archives do not contain corresponding physical trajectories. Splits are episode-disjoint within each source, not guaranteed independent across source collections."
+}

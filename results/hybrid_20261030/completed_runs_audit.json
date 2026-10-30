@@ -1,0 +1,103 @@
+{
+  "completed_run_files_checked": 12,
+  "passed": true,
+  "records": [
+    {
+      "run": "adv_gate_seed0",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "420492a7163f1e4d5000f2582733905ae54b8411cb5bc2036750e52325c66bdd"
+    },
+    {
+      "run": "adv_gate_seed1",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "15d36c352b04582a3abd20dee1bb78baf7724736dafd9a82af7ce11cb7c472d9"
+    },
+    {
+      "run": "adv_gate_seed2",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "b0c1d4b801c060c42838a19332d16a035deb77db25d9082106d8b7311c74a83c"
+    },
+    {
+      "run": "adv_inv_seed0",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "398e88a4bdae09c5447368ef9d13f36990a0db3de3cc0bb11052b8a1bbbfa883"
+    },
+    {
+      "run": "adv_inv_seed1",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "11a575c0d788862fe099d353bd2fee84e5f8ea488e60ef2190ef5005a533191d"
+    },
+    {
+      "run": "adv_inv_seed2",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "57a8bb6225a116e010182bc5cad117bd82a280e9391b5ccb9fdf892a28a1e2b6"
+    },
+    {
+      "run": "gate_seed0",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "596ce45af69aa3c0c08f592c6b9298749aeb066df125e9d13e65b800abbd52c4"
+    },
+    {
+      "run": "gate_seed1",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "609fed63b2c665746d19f05dd5f5b9c9ff2c540ab889233f93854f9aa899d52a"
+    },
+    {
+      "run": "gate_seed2",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "4ba479d9da6785355b03aab22c092701d04e6b3c30b14e8f9efb8b39a28a3e15"
+    },
+    {
+      "run": "inv_seed0",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "e35425e2646d8b63819d22233ef63df42883a60fceb6be80b501d04e24fb951e"
+    },
+    {
+      "run": "inv_seed1",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "f57601f53e4309d48584130d8b1e91cced7f01a00a72b80c32cbb8ef01529161"
+    },
+    {
+      "run": "inv_seed2",
+      "updates": 40000,
+      "finite_models": true,
+      "metadata_matches": true,
+      "unique_complete_eval_episodes": 20,
+      "checkpoint_sha256": "2ff03ae7e96e75cebd765a23d7df01a676542c3d1194d70fe196c3367b478fae"
+    }
+  ],
+  "scope": "Checks recorded completed runs only; not an assertion all planned runs are complete or method scientifically correct."
+}

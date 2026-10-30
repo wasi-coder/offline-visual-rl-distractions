@@ -1,0 +1,20 @@
+{
+  "changed_before_training_started": true,
+  "set_utc": "2026-10-29T19:22:24.193103+00:00",
+  "target_updates": 40000,
+  "training_stop_unix": 1793344944.1931038,
+  "analysis_target_unix": 1793352144.1931038,
+  "submission_deadline_unix": 1793373744.1931038,
+  "primary_seeds": [
+    0,
+    1,
+    2
+  ],
+  "control_seeds": [
+    0,
+    1,
+    2
+  ],
+  "priority": "Complete six primary runs first, then six component controls if time permits. No invented results for skipped/partial runs. 40kupdates same across all completed methods. Training hard stop includes preparation/load/eval walltime from budget set.",
+  "reason": "User requested12-14h study before20hsubmission deadline."
+}

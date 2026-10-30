@@ -1,0 +1,6 @@
+{
+  "episodes_checked": 400,
+  "cross_split_identical_action_sequences": [],
+  "passed": true,
+  "scope": "Exact500-step6D action-sequence matching acrossdomains/splits; absence does not prove no related physical trajectories or approximate duplicates."
+}

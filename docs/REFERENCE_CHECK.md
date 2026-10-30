@@ -1,0 +1,3 @@
+# Reference checks, 30 October 2026
+
+References 1, 2, 4, 5, 6, 7 and 9 resolved to matching primary-source titles and authors on arXiv, PMLR or JMLR. Reference 3 matches the supplied complete TMLR October 2024 PDF; OpenReview returned a browser-verification page. Reference 8 DOI could not be resolved by the browser tool in this session; do not describe that URL as verified working. It is retained as the previously recorded publisher reference, with no claim that its full paywalled paper was reviewed. Reference 10 is the user-supplied project repository. In-text references 1–10 are present; no claim of a new superior algorithm is made. Similarity screening has not been performed.

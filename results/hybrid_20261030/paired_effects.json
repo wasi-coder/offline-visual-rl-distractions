@@ -1,0 +1,186 @@
+{
+  "effects": [
+    {
+      "contrast": "gating_under_alignment",
+      "measurement": "heldout_return",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": -60.63902920576275,
+        "1": -14.819708892656365,
+        "2": -68.88421931222204
+      },
+      "mean_difference": -48.11431913688039,
+      "sample_sd_difference": 29.12720538361008
+    },
+    {
+      "contrast": "gating_under_alignment",
+      "measurement": "action_mse",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": 0.001857296423513899,
+        "1": 0.0057576812451844706,
+        "2": 0.004461603589164226
+      },
+      "mean_difference": 0.004025527085954199,
+      "sample_sd_difference": 0.001986422028867093
+    },
+    {
+      "contrast": "gating_under_alignment",
+      "measurement": "domain_accuracy",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0
+      },
+      "mean_difference": 0.0,
+      "sample_sd_difference": 0.0
+    },
+    {
+      "contrast": "gating_without_alignment",
+      "measurement": "heldout_return",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": -60.15166698567536,
+        "1": 38.28720224030863,
+        "2": -17.675554250564232
+      },
+      "mean_difference": -13.180006331976989,
+      "sample_sd_difference": 49.373172947855295
+    },
+    {
+      "contrast": "gating_without_alignment",
+      "measurement": "action_mse",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": 0.004194205877634638,
+        "1": 0.006305720413610799,
+        "2": 0.005049816232144372
+      },
+      "mean_difference": 0.005183247507796603,
+      "sample_sd_difference": 0.0010620623041522998
+    },
+    {
+      "contrast": "gating_without_alignment",
+      "measurement": "domain_accuracy",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0
+      },
+      "mean_difference": 0.0,
+      "sample_sd_difference": 0.0
+    },
+    {
+      "contrast": "alignment_without_gating",
+      "measurement": "heldout_return",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": -5.044719403505411,
+        "1": 21.114198559831664,
+        "2": 30.041469910419522
+      },
+      "mean_difference": 15.370316355581926,
+      "sample_sd_difference": 18.234700634377514
+    },
+    {
+      "contrast": "alignment_without_gating",
+      "measurement": "action_mse",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": 0.00017052328875685752,
+        "1": -0.0037875580079707316,
+        "2": -0.0021097927731603128
+      },
+      "mean_difference": -0.0019089424974580622,
+      "sample_sd_difference": 0.0019866699556829867
+    },
+    {
+      "contrast": "alignment_without_gating",
+      "measurement": "domain_accuracy",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0
+      },
+      "mean_difference": 0.0,
+      "sample_sd_difference": 0.0
+    },
+    {
+      "contrast": "alignment_with_gating",
+      "measurement": "heldout_return",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": -5.532081623592802,
+        "1": -31.992712573133332,
+        "2": -21.16719515123829
+      },
+      "mean_difference": -19.563996449321476,
+      "sample_sd_difference": 13.30296704199166
+    },
+    {
+      "contrast": "alignment_with_gating",
+      "measurement": "action_mse",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": -0.0021663861653638816,
+        "1": -0.00433559717639706,
+        "2": -0.0026980054161404587
+      },
+      "mean_difference": -0.003066662919300467,
+      "sample_sd_difference": 0.0011306194623187879
+    },
+    {
+      "contrast": "alignment_with_gating",
+      "measurement": "domain_accuracy",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0
+      },
+      "mean_difference": 0.0,
+      "sample_sd_difference": 0.0
+    },
+    {
+      "contrast": "interaction",
+      "measurement": "heldout_return",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": -0.48736222008739105,
+        "1": -53.106911132964996,
+        "2": -51.2086650616578
+      },
+      "mean_difference": -34.93431280490339,
+      "sample_sd_difference": 29.847028964058968
+    },
+    {
+      "contrast": "interaction",
+      "measurement": "action_mse",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": -0.002336909454120739,
+        "1": -0.0005480391684263286,
+        "2": -0.000588212642980146
+      },
+      "mean_difference": -0.0011577204218424046,
+      "sample_sd_difference": 0.0010214051876696966
+    },
+    {
+      "contrast": "interaction",
+      "measurement": "domain_accuracy",
+      "matched_seed_count": 3,
+      "seed_values": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0
+      },
+      "mean_difference": 0.0,
+      "sample_sd_difference": 0.0
+    }
+  ],
+  "all_three_seed_contrasts_available": true,
+  "interpretation": "Return: positive better. Action MSE: negative better. Domain accuracy: lower only suggests less linear domain decodability, not guaranteed invariance. Small N; descriptive paired differences, no significance assertion."
+}

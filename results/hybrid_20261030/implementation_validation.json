@@ -1,0 +1,29 @@
+{
+  "gradient_path_checks": [
+    {
+      "mode": "adv_inv",
+      "changed_parameters": {
+        "encoder": true,
+        "inverse": true,
+        "policy": true,
+        "domain": true,
+        "mask": false
+      },
+      "finite_metrics": true
+    },
+    {
+      "mode": "adv_gate",
+      "changed_parameters": {
+        "encoder": true,
+        "inverse": true,
+        "policy": true,
+        "domain": true,
+        "mask": true
+      },
+      "finite_metrics": true
+    }
+  ],
+  "ridge_known_mapping_mse": 3.678121086001323e-05,
+  "passed": true,
+  "scope": "Synthetic postwarm parameter changes and independent probe algebra; not a learning result or proof of action preservation."
+}

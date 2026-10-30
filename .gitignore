@@ -40,3 +40,6 @@ wandb/
 *.avi
 .DS_Store
 Thumbs.db
+
+# New hybrid training artifacts
+/experiments/
