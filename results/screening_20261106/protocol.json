@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-06",
+  "purpose": "Exploratory small-budget screening, not paper reproduction or definitive ranking",
+  "methods": [
+    "bc",
+    "drq",
+    "iql",
+    "awac",
+    "svea",
+    "infogating"
+  ],
+  "training_seeds": [
+    0,
+    1,
+    2
+  ],
+  "updates_per_run": 4000,
+  "batch_size": 16,
+  "dataset": "E:\\offline_rl\\data\\cheetah_medium_expert_easy",
+  "transitions": 100000,
+  "episodes": 200,
+  "evaluation_seeds": [
+    701,
+    702,
+    703
+  ],
+  "evaluation_conditions": [
+    "familiar_background",
+    "heldout_background"
+  ],
+  "evaluation": "Same static-within-episode easy protocol as earlier six-method pilot (dynamic=False default); frozen final policies, raw returns, no training from simulator",
+  "budget": "Equal optimizer iterations, NOT equal runtime or model size. InfoGating ignores rewards and has different encoder/policy.",
+  "infogating_warmup": "Author threshold step<5000 retained: first 2499 iterations warmup, subsequent 1501 full-gate iterations.",
+  "checkpoint_every_updates": 250,
+  "warmstart": false,
+  "primary_ranking": "Mean held-out return, first average 3 episodes within each training seed, then mean and sample SD over 3 training seeds.",
+  "caveat": "These evaluation videos/seeds were examined in earlier studies; exploratory development benchmark, not untouched confirmatory test."
+}

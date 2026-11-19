@@ -19,6 +19,7 @@ def clean(s):
 def p(text='',style='BodyText',number=True):
  x=el('p');pr=el('pPr');pr.append(el('pStyle',val=style));x.append(pr)
  if style=='tablehead':pr.append(el('keepNext'))
+ if style=='figurecaption':pr.append(el('keepLines'))
  if not number:n=el('numPr');n.append(el('numId',val=0));pr.append(n)
  run=el('r')
  if style=='equation':
@@ -38,6 +39,17 @@ def table(title,headers,rows):
    if i==0:rp.append(el('b'))
    run.append(rp);tx=el('t');tx.text=clean(str(txt));run.append(tx);par.append(run);tc.append(par);tr.append(tc)
   x.append(tr)
+ for row in list(x):
+  if E.QName(row).localname!='tr':continue
+  rp=row.find('w:trPr',ns)
+  if rp is None:rp=el('trPr');row.insert(0,rp)
+  rp.append(el('cantSplit'))
+ rows_xml=x.findall('w:tr',ns)
+ for row in rows_xml[:-1]:
+  for par in row.findall('.//w:p',ns):
+   pp=par.find('w:pPr',ns)
+   if pp is None:pp=el('pPr');par.insert(0,pp)
+   pp.append(el('keepNext'))
  body.append(x)
 rels=E.fromstring(parts['word/_rels/document.xml.rels']);rel_ns='http://schemas.openxmlformats.org/package/2006/relationships'
 def fig(name,caption):
@@ -81,8 +93,8 @@ while i<len(lines):
   for row in rows:
    for j,cell in enumerate(row):row[j]=cell.replace('Alignment + gating + inverse + BC','DA+IG').replace('Alignment + inverse + BC','DA+Inv').replace('Gating + inverse + BC','IG').replace('Inverse + BC','Inv')
   table(['TABLE I  FINAL CONTROL RETURNS','TABLE II  FROZEN FEATURE PROBES','TABLE III  MEASURED UPDATE COST','TABLE IV  EXPLORATORY STATIC AND MOVING TEST'][tables-1],rows[0],rows[1:])
-  if tables==1:fig('returns.png','Fig. 1. Final return means and sample SD across three training seeds. Dots show seed means over five episodes. Inv denotes inverse prediction with BC; IG adds gating; DA adds alignment.')
-  if tables==2:fig('probes.png','Fig. 2. Action probe error on separate episodes. Dots show individual trained encoders; horizontal marks indicate means. Lower is better for this fixed probe.')
+  if tables==1:fig('returns.png','Fig. 2. Final return means and sample SD across three training seeds. Dots show seed means over five episodes. Inv denotes inverse prediction with BC; IG adds gating; DA adds alignment.')
+  if tables==2:fig('probes.png','Fig. 3. Action probe error on separate episodes. Dots show individual trained encoders; horizontal marks indicate means. Lower is better for this fixed probe.')
   continue
  if line.startswith('#'):
   heading=re.sub(r'^[IVX]+\.\s*','',line.lstrip('# ').strip())
@@ -91,7 +103,9 @@ while i<len(lines):
   else:p(heading,'Heading2' if line.startswith('###') else 'Heading1')
   i+=1;continue
  if line=='FIGURE_PAIRED':
-  fig('paired.png','Fig. 3. Paired held-out return changes after adding gating. Each dot is one matched training seed; black bars show means. Negative values favor the condition without gating.');i+=1;continue
+  fig('paired.png','Fig. 4. Paired held-out return changes after adding gating. Each dot is one matched training seed; black bars show means. Negative values favor the condition without gating.');i+=1;continue
+ if line=='FIGURE_METHOD':
+  fig('methodology.png','Fig. 1. Implemented training and evaluation pipeline. The inverse objective and BC policy are shared across all four conditions. Learned gating and reversed domain gradients are optional. Raw images are used at evaluation; no reward-learning critic is trained.');i+=1;continue
  paragraph=line;i+=1
  while i<len(lines) and lines[i].strip() and not lines[i].startswith(('#','|')):paragraph+=' '+lines[i].strip();i+=1
  if paragraph.startswith('Abstract—'):p(paragraph,'Abstract');p('Keywords—offline visual control, behavioral cloning, information gating, domain adaptation, representation learning','Keywords')

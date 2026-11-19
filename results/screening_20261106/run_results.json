@@ -1,0 +1,1046 @@
+[
+  {
+    "mode": "bc",
+    "seed": 0,
+    "updates": 4000,
+    "training_seconds": 66.59129139996367,
+    "peak_rss_bytes": 3267321856,
+    "peak_cuda_bytes": 165884928,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 0.9275905273958186,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 7.955901136188193,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 1.7808954129356676,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 32.25634332636215,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.670996945871731,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.842572994471164,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "drq",
+    "seed": 0,
+    "updates": 4000,
+    "training_seconds": 150.2494982998469,
+    "peak_rss_bytes": 3626020864,
+    "peak_cuda_bytes": 220413440,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 3.2741002387249316,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 4.149127385500426,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 2.1593888109600563,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 172.50144914115478,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 1.6434596921805777,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 1.1419057681246465,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "iql",
+    "seed": 0,
+    "updates": 4000,
+    "training_seconds": 184.17192830058048,
+    "peak_rss_bytes": 3650260992,
+    "peak_cuda_bytes": 250237440,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 1.5460356305250498,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 1.6677210149100823,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 2.0130973604012223,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 1.0038144513820715,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 1.1984503239355648,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.7198490251029895,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "awac",
+    "seed": 0,
+    "updates": 4000,
+    "training_seconds": 136.1294837986934,
+    "peak_rss_bytes": 3650277376,
+    "peak_cuda_bytes": 220413440,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 62.66481178904739,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 21.578864228618173,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 28.195644567115153,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 4.922242885342128,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.30271702120227584,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.2996330444890788,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "svea",
+    "seed": 0,
+    "updates": 4000,
+    "training_seconds": 207.66995470022084,
+    "peak_rss_bytes": 3651305472,
+    "peak_cuda_bytes": 238574080,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 2.5768437530316373,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 1.7529083015107332,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.36218758569692555,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 155.26044860335932,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 1.3073548408819846,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.5256653131203161,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "infogating",
+    "seed": 0,
+    "updates": 4000,
+    "training_seconds": 302.3777726992266,
+    "peak_rss_bytes": 3672608768,
+    "peak_cuda_bytes": 519242752,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 20.222448924234385,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 6.577716555077323,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 4.6827367587167315,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 7.32470729922487,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 1.1725776841615658,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 55.255234585848434,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "bc",
+    "seed": 1,
+    "updates": 4000,
+    "training_seconds": 59.36371549835894,
+    "peak_rss_bytes": 3699810304,
+    "peak_cuda_bytes": 166565888,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 198.97071850133227,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 101.15298213666648,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 151.23687768744247,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 255.52380086938527,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.5425959648579812,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 1.3016744067702337,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "drq",
+    "seed": 1,
+    "updates": 4000,
+    "training_seconds": 136.6293454975239,
+    "peak_rss_bytes": 3695271936,
+    "peak_cuda_bytes": 220413440,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 4.556457024454417,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 1.3609806701224088,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.5402660717324841,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 0.42084191004293203,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.39721527906484044,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.6511072369577404,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "iql",
+    "seed": 1,
+    "updates": 4000,
+    "training_seconds": 172.72936139936792,
+    "peak_rss_bytes": 3695325184,
+    "peak_cuda_bytes": 250237440,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 1.0273055786128429,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 5.867831345052679,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 38.739344076947454,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 7.201074600460769,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.6224235087912194,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.8651034037029894,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "awac",
+    "seed": 1,
+    "updates": 4000,
+    "training_seconds": 121.35902170313057,
+    "peak_rss_bytes": 3696021504,
+    "peak_cuda_bytes": 220413440,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 0.34565900436691344,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.08724249605595358,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.15365125826400605,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 11.065093081996029,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.20807371639397743,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.453069875400646,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "svea",
+    "seed": 1,
+    "updates": 4000,
+    "training_seconds": 185.47446150047472,
+    "peak_rss_bytes": 3666509824,
+    "peak_cuda_bytes": 238574080,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 0.9033297920400088,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 5.219242152418095,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 5.597053814659695,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 1.254437290382953,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 2.267217608890024,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.41170436855883163,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "infogating",
+    "seed": 1,
+    "updates": 4000,
+    "training_seconds": 278.855344599986,
+    "peak_rss_bytes": 2779054080,
+    "peak_cuda_bytes": 101310464,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 0.5827454256828086,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 1.6742522106556819,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 2.0453593789425875,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 3.254976935536045,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 2.938656604183154,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 53.725043034118556,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "bc",
+    "seed": 2,
+    "updates": 4000,
+    "training_seconds": 55.35321779974038,
+    "peak_rss_bytes": 3465486336,
+    "peak_cuda_bytes": 227262464,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 4.9162445815125055,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 45.8290557180864,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 1.1554119223534292,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 4.892915189140064,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.58739474886332,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.8850455360955958,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "drq",
+    "seed": 2,
+    "updates": 4000,
+    "training_seconds": 128.3971109011327,
+    "peak_rss_bytes": 3672338432,
+    "peak_cuda_bytes": 281972736,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 250.98005989272656,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 13.071776432884347,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.5531839549288298,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 1.27731565292739,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.48496000091602487,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.36791610618729087,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "iql",
+    "seed": 2,
+    "updates": 4000,
+    "training_seconds": 175.08980590163264,
+    "peak_rss_bytes": 3711930368,
+    "peak_cuda_bytes": 311714816,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 3.375816581873248,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 127.30055634678914,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 111.5884428595427,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 0.9994638875154361,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.9937767020930546,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.3024929841518056,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "awac",
+    "seed": 2,
+    "updates": 4000,
+    "training_seconds": 118.3855606970028,
+    "peak_rss_bytes": 3540365312,
+    "peak_cuda_bytes": 281972736,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 14.64330869295762,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 5.276131048751033,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 1.3726383762335481,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 1.004354867891505,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.3534869049860745,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.282658400965093,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "svea",
+    "seed": 2,
+    "updates": 4000,
+    "training_seconds": 182.0823436974897,
+    "peak_rss_bytes": 3554226176,
+    "peak_cuda_bytes": 299702272,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 224.29472781631122,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 94.40792502496944,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 0.8939966045499255,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 2.023019589324348,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 2.147833477448178,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 1.4664690706279768,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  },
+  {
+    "mode": "infogating",
+    "seed": 2,
+    "updates": 4000,
+    "training_seconds": 275.01858799986076,
+    "peak_rss_bytes": 3673440256,
+    "peak_cuda_bytes": 578613248,
+    "evaluation": [
+      {
+        "condition": "familiar_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 173.06507628344602,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 0.8953126372957425,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "familiar_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 1.1505774156662871,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 701,
+        "damage_band_pixels": 0,
+        "return": 279.9041731637927,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 702,
+        "damage_band_pixels": 0,
+        "return": 3.588515746222402,
+        "steps": 500,
+        "video": null
+      },
+      {
+        "condition": "heldout_background",
+        "eval_seed": 703,
+        "damage_band_pixels": 0,
+        "return": 9.390081775396206,
+        "steps": 500,
+        "video": null
+      }
+    ]
+  }
+]

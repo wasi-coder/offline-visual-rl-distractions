@@ -1,0 +1,158 @@
+{
+  "complete": true,
+  "runs": 18,
+  "evaluations": 108,
+  "training_seconds_total": 2935.927806394233,
+  "summary": [
+    {
+      "method": "infogating",
+      "label": "Adapted InfoGating*",
+      "training_seeds": 3,
+      "mean_training_seconds": 285.41723509969114,
+      "mean_peak_cuda_mib": 381.2047526041667,
+      "familiar_background": {
+        "mean": 23.432913954413063,
+        "sample_sd": 30.593930605254055,
+        "seed_means": [
+          10.494300746009479,
+          1.4341190050936927,
+          58.370322112136016
+        ]
+      },
+      "heldout_background": {
+        "mean": 46.28377409205377,
+        "sample_sd": 44.46963997095461,
+        "seed_means": [
+          21.250839856411623,
+          19.97289219127925,
+          97.62759022847042
+        ]
+      }
+    },
+    {
+      "method": "bc",
+      "label": "BC",
+      "training_seeds": 3,
+      "mean_training_seconds": 60.43607489935433,
+      "mean_peak_cuda_mib": 177.92805989583334,
+      "familiar_background": {
+        "mean": 57.1028530693237,
+        "sample_sd": 81.13566052996526,
+        "seed_means": [
+          3.554795692173226,
+          150.45352610848042,
+          17.300237407317447
+        ]
+      },
+      "heldout_background": {
+        "mean": 33.055926664646385,
+        "sample_sd": 45.89632224426705,
+        "seed_means": [
+          11.256637755568349,
+          85.78935708033782,
+          2.1217851580329934
+        ]
+      }
+    },
+    {
+      "method": "drq",
+      "label": "DrQv2+BC",
+      "training_seeds": 3,
+      "mean_training_seconds": 138.42531823283448,
+      "mean_peak_cuda_mib": 229.77180989583334,
+      "familiar_background": {
+        "mean": 31.18281560911494,
+        "sample_sd": 49.3825258804032,
+        "seed_means": [
+          3.194205478395138,
+          2.1525679221031035,
+          88.20167342684658
+        ]
+      },
+      "heldout_background": {
+        "mean": 19.876241198617357,
+        "sample_sd": 33.3877967569992,
+        "seed_means": [
+          58.42893820048667,
+          0.48972147535517097,
+          0.7100639200102352
+        ]
+      }
+    },
+    {
+      "method": "svea",
+      "label": "SVEA-style+BC*",
+      "training_seeds": 3,
+      "mean_training_seconds": 191.7422532993951,
+      "mean_peak_cuda_mib": 246.9541015625,
+      "familiar_background": {
+        "mean": 37.33424609390975,
+        "sample_sd": 59.93864553520354,
+        "seed_means": [
+          1.5639798800797653,
+          3.906541919705933,
+          106.53221648194354
+        ]
+      },
+      "heldout_background": {
+        "mean": 18.51823890695488,
+        "sample_sd": 29.31308865073403,
+        "seed_means": [
+          52.364489585787204,
+          1.3111197559439363,
+          1.8791073791335011
+        ]
+      }
+    },
+    {
+      "method": "awac",
+      "label": "Visual AWAC*",
+      "training_seeds": 3,
+      "mean_training_seconds": 125.29135539960892,
+      "mean_peak_cuda_mib": 229.77180989583334,
+      "familiar_background": {
+        "mean": 14.924216829045532,
+        "sample_sd": 19.83617172036492,
+        "seed_means": [
+          37.47977352826024,
+          0.19551758622895768,
+          7.0973593726474
+        ]
+      },
+      "heldout_background": {
+        "mean": 2.0990366442963118,
+        "sample_sd": 1.6956842949099085,
+        "seed_means": [
+          1.8415309836778277,
+          3.9087455579302173,
+          0.5468333912808908
+        ]
+      }
+    },
+    {
+      "method": "iql",
+      "label": "Visual IQL*",
+      "training_seeds": 3,
+      "mean_training_seconds": 177.330365200527,
+      "mean_peak_cuda_mib": 258.1881510416667,
+      "familiar_background": {
+        "mean": 32.56957231051715,
+        "sample_sd": 42.26969411782211,
+        "seed_means": [
+          1.742284668612118,
+          15.211493666870991,
+          80.75493859606836
+        ]
+      },
+      "heldout_background": {
+        "mean": 1.5451609874595444,
+        "sample_sd": 1.1746827248172793,
+        "seed_means": [
+          0.974037933473542,
+          2.896200504318326,
+          0.7652445245867654
+        ]
+      }
+    }
+  ]
+}

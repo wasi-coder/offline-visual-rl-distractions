@@ -1,0 +1,40 @@
+{
+  "replay_rows": 100600,
+  "complete_episodes": 200,
+  "valid_sampling_indices": 99600,
+  "source_manifest_sha256": "bdd0cfed9a95324233ab7193f68a118af30e41319b45326c80cd2dc4a3bcf7cd",
+  "files": [
+    {
+      "name": "shard_1_reward_513.hdf5",
+      "bytes": 56459342
+    },
+    {
+      "name": "shard_1_reward_890.hdf5",
+      "bytes": 59034533
+    },
+    {
+      "name": "shard_2_reward_513.hdf5",
+      "bytes": 56401446
+    },
+    {
+      "name": "shard_2_reward_886.hdf5",
+      "bytes": 58996342
+    },
+    {
+      "name": "shard_3_reward_511.hdf5",
+      "bytes": 56474134
+    },
+    {
+      "name": "shard_3_reward_897.hdf5",
+      "bytes": 58984693
+    },
+    {
+      "name": "shard_4_reward_512.hdf5",
+      "bytes": 56428144
+    },
+    {
+      "name": "shard_4_reward_893.hdf5",
+      "bytes": 58927368
+    }
+  ]
+}

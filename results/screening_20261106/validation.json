@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "mode": "bc",
+      "finite_update": true,
+      "encoder_changed": true,
+      "exact_resume_next_update": true,
+      "valid_action": true
+    },
+    {
+      "mode": "drq",
+      "finite_update": true,
+      "encoder_changed": true,
+      "exact_resume_next_update": true,
+      "valid_action": true
+    },
+    {
+      "mode": "iql",
+      "finite_update": true,
+      "encoder_changed": true,
+      "exact_resume_next_update": true,
+      "valid_action": true
+    },
+    {
+      "mode": "awac",
+      "finite_update": true,
+      "encoder_changed": true,
+      "exact_resume_next_update": true,
+      "valid_action": true
+    },
+    {
+      "mode": "svea",
+      "finite_update": true,
+      "encoder_changed": true,
+      "exact_resume_next_update": true,
+      "valid_action": true
+    },
+    {
+      "mode": "infogating",
+      "finite_update": true,
+      "encoder_changed": true,
+      "exact_resume_next_update": true,
+      "valid_action": true
+    }
+  ]
+}
